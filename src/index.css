@@ -1,0 +1,143 @@
+* {
+  font-family: 'Lexend', sans-serif;
+  margin: 0;
+  padding: 0 auto;
+  background-color: #ffffff;
+}
+
+.container-general {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.head-products-marketing {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*margin-left: 135px;*/
+  border-bottom: 1px solid gray;
+
+}
+.head h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #060709;
+  padding: 32px 0 32px 0;
+}
+
+.head h2 { 
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #9D9EA2;
+  padding: 32px 0 32px 0;
+
+}
+
+ .products {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-bottom: 1px solid gray;
+  height: 100px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 40px;
+ 
+
+}
+
+
+.marketing {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+ 
+}
+
+
+
+
+
+
+.marketing .carts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 16px;
+  border: 2px solid #F4F4F4;
+  border-radius: 12px;
+
+}
+
+
+.marketing .carts img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+
+
+.container-total {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+ 
+}
+
+.sectiontotal {
+  border-bottom: 1px solid gray;
+}
+
+.container-total .sectiontotal .total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+ 
+
+}
+
+.container-total .checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  border-bottom: 2px solid gray;
+}
+
+.container-total .carts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-total .carts img {
+ 
+  width: 56px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #F4F4F4;
+  border-radius: 6px;
+  
+  
+
+}
