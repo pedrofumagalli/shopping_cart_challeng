@@ -5,7 +5,7 @@
   background-color: #ffffff;
 }
 
-.container-general {
+main {
   width: 1120px;
   margin: 0 auto;
   display: flex;
@@ -18,16 +18,14 @@
   flex-direction: column;
 }
 
-.head {
+header .head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*margin-left: 135px;*/
+  border-bottom: 1px solid #F4F4F4;
   height: 100px;
-  border-bottom: 1px solid #F4F4F4
-
 }
-.head h1 {
+header .head h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -35,7 +33,7 @@
   color: #060709;
 }
 
-.head h2 { 
+header .head h2 { 
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -43,7 +41,7 @@
   color: #9D9EA2;
 }
 
- .products {
+.products {
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -51,30 +49,39 @@
   height: 100px;
 }
 
-.products img {
-  margin-right: 20px;
-}
-
-.products span.descrition-product  {
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 21px;
-  color:#9D9EA2;
-  text-align: left;
-}
-
-.products p.amount {
+.products h2 {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 150%;
-  color: #060709;
+  color: #9D9EA2;
 }
 
-.products .value {
+.products h3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #060709;
+}
+
+.products .input {
+  display: inline;
+}
+
+.products .btnenter {
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #F4F4F4;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.products .inputnumber {
+  width: 36px;
+  height: 36px;
+  background: #F4F4F4;
+  border: 1px solid #F4F4F4;
+  border-radius: 4px;
 }
 
 .marketing {
@@ -82,7 +89,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 16px;
- 
 }
 
 .marketing .carts {
@@ -108,22 +114,19 @@
   border-radius: 12px;
 }
 
-.marketing .cart strong.text1 {
+.marketing .carts h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #1A1E26;
 }
 
-.marketing .cart p.text2 {
+.marketing .carts h3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #717378;
 }
-
-
-
 
 
 .container-total {
