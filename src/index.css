@@ -41,7 +41,7 @@ header .head h2 {
   color: #9D9EA2;
 }
 
-.products {
+.product {
   display: flex;
   align-items: center;
   justify-content:space-between;
@@ -49,25 +49,25 @@ header .head h2 {
   height: 100px;
 }
 
-.products h2 {
+.product h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #9D9EA2;
 }
 
-.products h3 {
+.product h3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #060709;
 }
 
-.products .input {
+.product .input {
   display: inline;
 }
 
-.products .btnenter {
+.product .btnenter {
   width: 36px;
   height: 36px;
   background: #FFFFFF;
@@ -76,7 +76,7 @@ header .head h2 {
   cursor: pointer;
 }
 
-.products .inputnumber {
+.product .inputnumber {
   width: 36px;
   height: 36px;
   background: #F4F4F4;
